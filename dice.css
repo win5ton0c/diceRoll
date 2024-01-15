@@ -33,3 +33,11 @@ input{
     text-align: center;
     font-weight: bold;
 }
+
+#diceResult{
+    margin-top:25px;
+}
+
+#diceImages{
+    margin: 5px;
+}
