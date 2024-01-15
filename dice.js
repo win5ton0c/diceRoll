@@ -1,14 +1,10 @@
-let dice = document.getElementById('myRoll');
-let myH2 = document.getElementById('myH2');
+// Dice Roller program
 
-let output = 0;
+let diceResult = document.getElementById('diceResult');
+let diceImages = document.getElementById('diceImages');
 
+ function rollDice(){
+    console.log("Testing")
 
-dice.onclick = function(){
-    output = Math.floor(Math.random() * 6) + 1;
-    //console.log(output)
-    myH2.textContent = output;
-    
-
-}
+ }
 
