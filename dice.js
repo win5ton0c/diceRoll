@@ -1,10 +1,13 @@
 // Dice Roller program
 
-let diceResult = document.getElementById('diceResult');
-let diceImages = document.getElementById('diceImages');
-
  function rollDice(){
-    console.log("Testing")
+    const numOfDice = document.getElementById('numOfDice').value;
+    const diceResult = document.getElementById('diceResult');
+    const diceImages = document.getElementById('diceImages');
+
+    output = Math.floor(Math.random() * 6) + 1;
+    console.log(`${output}`);
+
 
  }
 
